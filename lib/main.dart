@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
     appLinks.uriLinkStream.listen((uri) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Text('App Links got trigger'),
+          content: const Text('App Links got trigger chnage commit 1 2'),
           action: SnackBarAction(
             label: 'Action',
             onPressed: () {
